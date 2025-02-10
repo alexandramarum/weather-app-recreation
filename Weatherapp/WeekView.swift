@@ -24,7 +24,7 @@ struct WeekView: View {
                 }
             }
             .padding()
-            .background(.blue.opacity(0.2), in: RoundedRectangle(cornerRadius: 20.0))
+            .background(.blue.opacity(0.4), in: RoundedRectangle(cornerRadius: 20.0))
             .foregroundStyle(.white)
             
         }

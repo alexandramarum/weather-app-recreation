@@ -15,10 +15,10 @@ struct ContentView: View {
             ScrollView(showsIndicators: false) {
                 HeaderView()
                 DayView()
+                    .padding(.horizontal, 10)
                 WeekView()
             }
             .foregroundStyle(.white)
-            .padding()
         }
     }
 }
